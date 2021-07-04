@@ -1,7 +1,10 @@
 function printOddNumbers() {
-    for (var i = 10; i >= 0; i--)
+    console.log("Odd numbers between 9 to 1: ")
+    for (var i = 10; i >= 0; i--) {
         if (i % 2 !== 0) {
-            document.write(i + "<br>")
+            console.log(i);
+
         }
+    }
 }
 printOddNumbers();

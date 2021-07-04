@@ -1,12 +1,12 @@
 function checkNumbers(a, b) {
     if (a <= 10 && b <= 10) {
-        return false
+        console.log(false);
     }
     else if (a <= 10 || b <= 10) {
-        return true;
+        console.log(true);
     }
     else {
-        return false;
+        console.log(false);
     }
 }
 checkNumbers(1, 15);

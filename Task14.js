@@ -6,4 +6,7 @@ function checkNumber(x) {
         return false;
     }
 }
-checkNumber(25);
+checkNumber(90);
+checkNumber(110);
+checkNumber(190);
+checkNumber(210);

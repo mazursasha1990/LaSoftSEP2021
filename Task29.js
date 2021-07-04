@@ -2,11 +2,15 @@ function checkNumber(x, y) {
     if (x > 0 && y > 0) {
         if ((x >= 20 && x <= 30) && (y >= 20 && y <= 30)) {
             if (x > y) {
-                return x;
+                console.log(x);
             }
-            else return y;
+            else {
+                console.log(y);
+            }
         }
-        else return 0;
+        else {
+            console.log(0);
+        }
     }
 }
 checkNumber(2, 35);

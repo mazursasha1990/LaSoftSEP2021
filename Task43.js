@@ -1,7 +1,4 @@
-function calculeteCostOfParking() {
-    let timeOfArival = prompt("Enter the time of arival in format hh.mm", "hh.mm");
-    let timeOfDeparture = prompt("Enter the time of departure in format hh.mm", "hh.mm");
-    let pricePerHour = prompt("Enter price per hour");
+function calculeteCostOfParking(timeOfArival, timeOfDeparture, pricePerHour) {
     let fullCostOfParking;
     let timeOfArivalParts = timeOfArival.split(".");
     let timeOfDepartureParts = timeOfDeparture.split(".");
@@ -13,13 +10,13 @@ function calculeteCostOfParking() {
         fullCostOfParking = Math.ceil(timeOfParking) * pricePerHour
     }
     else {
-        fullCostOfParking = Math.floor(timeOfParking) * pricePerHour;
+        fullCostOfParking = Math.floor(timeOfParking) * pricePerHour
     }
 
-    document.write("You arrived at the parking at: " + timeOfArival, "<br/>");
-    document.write("You departure the parking at: " + timeOfDeparture, "<br/>");
-    document.write("The cost of an hour of parking is: " + pricePerHour + "$", "<br/>");
-    document.write("Tha full cost of parking is: " + fullCostOfParking + "$", "<br/>")
+    console.log("You arrived at the parking at: " + timeOfArival);
+    console.log("You departure the parking at: " + timeOfDeparture);
+    console.log("The cost of an hour of parking is: " + pricePerHour + "$");
+    console.log("The full cost of parking is: " + fullCostOfParking + "$")
 
 }
-calculeteCostOfParking();
+calculeteCostOfParking("12.40", "14.25", "3");

@@ -5,7 +5,7 @@ function checkIfNameHaveIf(words) {
     } else {
         value = "if " + words;
     }
-    return value;
+    console.log(value);
 }
 checkIfNameHaveIf("else");
 checkIfNameHaveIf("if else");

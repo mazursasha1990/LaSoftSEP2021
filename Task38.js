@@ -1,9 +1,5 @@
-function calculateDistanceOfMeeting() {
-    var distanceBetweenCities = +prompt("Enter the distanse between city A and city B");
-    var hareSpeed = +prompt("Enter hare speed");
-    var turtleSpeed = +prompt("Enter turtle speed");
-
+function calculateDistanceOfMeeting(distanceBetweenCities, hareSpeed, turtleSpeed) {
     var distanceFromCityB = (distanceBetweenCities / (hareSpeed + turtleSpeed)) * turtleSpeed;
     console.log(distanceFromCityB);
 }
-calculateDistanceOfMeeting();
+calculateDistanceOfMeeting(100, 15, 10);

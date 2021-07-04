@@ -1,11 +1,13 @@
 function checkNumber(x, y) {
     if (x === y) {
-        return 0;
+        console.log(0);
     }
     else if ((10 - x) < (10 - y)) {
-        return x;
+        console.log(x);
     }
-    else return y;
+    else {
+        console.log(y);
+    }
 }
 checkNumber(7, 5);
 checkNumber(2, 9);

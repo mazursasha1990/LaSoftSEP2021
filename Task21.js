@@ -5,4 +5,4 @@ function checkLastDigit(x, y) {
     return false;
 }
 checkLastDigit(12, 25);
-heckLastDigit(12, 22);
+checkLastDigit(12, 22);

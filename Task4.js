@@ -1,10 +1,10 @@
 function checkString(str) {
     if (str.startsWith("if")) {
-        console.log("true");
+        console.log(true);
     }
     else {
-        console.log("false");
+        console.log(false);
     }
 }
-let string = prompt("Enter a text: ");
-checkString(string);
+checkString("if string");
+checkString("string");

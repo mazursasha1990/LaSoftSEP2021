@@ -1,9 +1,9 @@
 function sumOfInt(x, y) {
     if (x === y) {
-        return ((x + y) * 2);
+        console.log((x + y) * 2);
     }
     else {
-        return (x + y);
+        console.log(x + y);
     }
 }
 sumOfInt(5, 5);

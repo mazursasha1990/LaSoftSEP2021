@@ -6,5 +6,4 @@ function createNewString(str) {
         console.log(" ");
     }
 }
-let string = prompt("Enter a text: ");
-createNewString(string);
+createNewString("psstring");

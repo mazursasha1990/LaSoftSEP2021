@@ -1,10 +1,6 @@
-function kilometrsFlyFlies() {
-    let distanceBetweenCities = +prompt("Enter the distance between cities");
-    let cyclistSpeed = +prompt("Enter cyclist speed");
-    let flySpeed = +prompt("Enter fly speed");
-
+function kilometrsFlyFlies(distanceBetweenCities, cyclistSpeed, flySpeed) {
     let distanceOfFly = (distanceBetweenCities / cyclistSpeed) * flySpeed;
 
     console.log(distanceOfFly);
 }
-kilometrsFlyFlies();
+kilometrsFlyFlies(100, 10, 15);
